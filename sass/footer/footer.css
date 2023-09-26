@@ -1,0 +1,96 @@
+footer {
+  margin-top: 130px;
+  background: rgba(38, 148, 153, 0.04);
+  padding: 70px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+footer .box1 h1 {
+  color: #000;
+  font-family: Ribeye;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 1.44px;
+}
+footer .box1 p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.96px;
+  padding-top: 40px;
+}
+footer .box1 p:nth-child(3) {
+  padding-top: 10px;
+}
+footer .box1 img {
+  padding-top: 20px;
+}
+footer .box2 ul {
+  display: grid;
+  gap: 20px;
+}
+footer .box2 a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.96px;
+  text-decoration: none;
+}
+footer .box3 h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 1.2px;
+}
+footer .box3 .email {
+  padding-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+footer .box3 .email input {
+  padding: 10px 0 10px 10px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+footer .box3 .email button {
+  padding: 10px 32px;
+  border-radius: 5px;
+  background: #C9453B;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 447px) {
+  footer {
+    padding: 40px 60px;
+    gap: 40px;
+    justify-content: center;
+  }
+}
+@media (min-width: 448px) and (max-width: 800px) {
+  footer {
+    padding: 40px 60px;
+    gap: 60px;
+    justify-content: center;
+  }
+}
+@media (min-width: 801px) and (max-width: 1400px) {
+  footer {
+    padding: 60px 80px;
+    gap: 60px;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=footer.css.map */

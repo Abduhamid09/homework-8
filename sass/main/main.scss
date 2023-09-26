@@ -1,0 +1,21 @@
+@import url(../footer/footer.css);
+@import url(../header/header.css);
+@import url(../section/section.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+@font-face {
+    font-family: "Ribeye";
+    src: url(../../font/Ribeye-Regular.ttf );
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../font/robot/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Roboto1';
+    src: url(../../font/robot/Roboto-Light.ttf);
+}
