@@ -89,8 +89,7 @@ footer .box3 .email button {
 }
 @media (min-width: 801px) and (max-width: 1400px) {
   footer {
-    padding: 60px 80px;
+    padding: 60px 60px;
     gap: 60px;
-    justify-content: center;
   }
 }/*# sourceMappingURL=footer.css.map */
